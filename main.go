@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	for i, item := range books.Books2024 {
+	for i, item := range *books.Books2024 {
 		fmt.Printf("[%d] %v\n", i, item)
 	}
 }

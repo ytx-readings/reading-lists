@@ -21,5 +21,5 @@ const ( // book formats
 	PDF  = "PDF"
 )
 
-type BooksOfYear []Book
-type BooksByYearMap map[int]BooksOfYear
+type BooksOfYear []*Book
+type BooksByYearMap map[int]*BooksOfYear
