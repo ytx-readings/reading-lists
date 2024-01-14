@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://json-schema.org/draft/2020-12/schema
+
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://example.com/schemas/book.schema.yaml
+title: Book schema
+description: A book schema
+type: object
+properties:
+  title:
+    type: string
+  authors:
+    type: array
+    items:
+      type: string
+  year:
+    description: The year of publication.
+    type: integer
+  download_links:
+    description: Download links, a map that maps each book format to the corresponding download links. Each format must be in ALL CAPS, e.g. EPUB, MOBI, PDF.
+    type: object
+    patternProperties:
+      ^[A-Z]+$:
+        description: Map book format to download links.
+        type: string
+        format: uri
+    additionalProperties: false
+  github_repo:
+    description: The GitHub repo to reading notes, mind maps, book analyses, etc.
+    type: string
+    format: uri

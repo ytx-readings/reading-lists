@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://json-schema.org/draft/2020-12/schema
+
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://example.com/schemas/books-by-year.schema.yaml
+type: object
+properties:
+  keysFrom:
+    description: The yaml file that contains all books, each item identified by a unique key.
+    type: string
+  year:
+    description: The year of reading list.
+    type: integer
+  books:
+    description: Use the keys from the "all books" yaml file.
+    type: array
+    items:
+      type: string
+      pattern: ^[_A-Za-z][_0-9A-Za-z]*$
+    uniqueItems: true
+additionalProperties: false
