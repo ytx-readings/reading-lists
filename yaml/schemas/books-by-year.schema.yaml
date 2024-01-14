@@ -2,6 +2,8 @@
 
 $schema: https://json-schema.org/draft/2020-12/schema
 $id: https://example.com/schemas/books-by-year.schema.yaml
+title: Books by year
+description: Books to read in a year.
 type: object
 properties:
   keysFrom:
@@ -11,7 +13,7 @@ properties:
     description: The year of reading list.
     type: integer
   books:
-    description: Use the keys from the "all books" yaml file.
+    description: Use the keys from the "all books" yaml file. Keys must be unique.
     type: array
     items:
       type: string

@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../schemas/all-books.schema.yaml
+
+RZJX:
+  title: 认知觉醒：开启自我改变的原动力
+  authors:
+    - 周岭
+  year: 2020
+  download_links:
+    EPUB: https://bit.ly/rzjx
+  github_repo: https://github.com/ytx-readings/zl-books
+
+RZJX_Q:
+  title: 认知觉醒：伴随一生的学习方法论（青少年学习版）
+  authors:
+    - 周岭
+  year: 2022
+  download_links:
+    EPUB: https://bit.ly/rzjx-q
+  github_repo: https://github.com/ytx-readings/zl-books
+
+RZQD:
+  title: 认知驱动：做成一件对他人很有用的事
+  authors:
+    - 周岭
+  year: 2021
+  download_links:
+    EPUB: https://bit.ly/rzqd-epub
+  github_repo: https://github.com/ytx-readings/zl-books
