@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=../schemas/all-books.schema.yaml
+# yaml-language-server: $schema=../.schemas/all-books.schema.yaml
 
 RZJX:
   title: 认知觉醒：开启自我改变的原动力

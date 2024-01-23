@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=../../schemas/books-by-year.schema.yaml
+# yaml-language-server: $schema=../../.schemas/books-by-year.schema.yaml
 
 keysFrom: ../all-books.yaml
 year: 2024
