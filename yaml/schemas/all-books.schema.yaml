@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=https://json-schema.org/draft/2020-12/schema
+
+$schema: https://json-schema.org/draft/2020-12/schema
+$id: https://example.com/schemas/all-books.schema.yaml
+title: All books.
+description: All books, each identified by a unique key.
+type: object
+patternProperties:
+  ^[_A-Za-z][_0-9A-Za-z]*$:
+    $ref: ./book.schema.yaml
+additionalProperties: false
