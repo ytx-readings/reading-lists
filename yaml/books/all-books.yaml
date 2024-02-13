@@ -1,5 +1,7 @@
 # yaml-language-server: $schema=../.schemas/all-books.schema.yaml
 
+---
+
 RZJX:
   title: 认知觉醒：开启自我改变的原动力
   authors:
@@ -26,3 +28,13 @@ RZQD:
   download_links:
     EPUB: https://bit.ly/rzqd-epub
   github_repo: https://github.com/ytx-readings/zl-books
+
+TNH:
+  title: The Now Habit
+  authors:
+    - Neil Fiore
+  year: 2007
+  download_links:
+    EPUB: https://bit.ly/now-habit-epub
+    PDF: https://bit.ly/now-habit-pdf
+  github_repo: https://github.com/ytx-readings/habit-books
