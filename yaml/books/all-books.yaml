@@ -29,6 +29,16 @@ RZQD:
     EPUB: https://bit.ly/rzqd-epub
   github_repo: https://github.com/ytx-readings/zl-books
 
+TFAS:
+  title: Thinking, Fast and Slow
+  authors:
+    - Daniel Kahneman
+  year: 2011
+  download_links:
+    EPUB: https://bit.ly/thinking-fast-and-slow-epub
+    MOBI: https://bit.ly/thinking-fast-and-slow-mobi
+  github_repo: https://github.com/ytx-readings/thinking-fast-and-slow
+
 TNH:
   title: The Now Habit
   authors:
